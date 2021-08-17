@@ -30,7 +30,7 @@ function ticketTaker() {
   if (count === 25) {
     //disables the button upon 25 submissions
     ticket.disabled = true;
-    //alerts the user the list is no longer populating
+    //alerts the user the list is no longer populating 
     alert(
       "We are practicing social distancing so we will only be taking 25 customers at a time"
     );
