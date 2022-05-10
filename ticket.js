@@ -1,12 +1,12 @@
 /*---------------DOM Scripting---------------*/
 
 let userName = document.getElementById("userName");
-let ticket = document.getElementById("ticket-btn");
+let button = document.getElementById("ticket-btn");
 let stub = document.getElementById("ticketOrder");
 
 /*-------------Event Listener---------------*/
 
-ticket.addEventListener("click", (evt) => {
+button.addEventListener("click", (evt) => {
   evt.preventDefault();
   ticketTaker();
 });
